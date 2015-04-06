@@ -1,0 +1,1 @@
+A simple TypeScript exploration in Webstorm using EasleJS and HTML5 canvas.

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head lang="en">
+
+        <meta charset="UTF-8">
+        <title></title>
+
+        <!-- libraries -->
+        <script src="//code.createjs.com/createjs-2014.12.12.min.js"></script>
+
+        <!-- models -->
+        <script src="app/models/Point.js"></script>
+
+        <!-- views -->
+        <script src="app/views/IShape.js"></script>
+        <script src="app/views/AbstractShape.js"></script>
+        <script src="app/views/Circle.js"></script>
+        <script src="app/views/Square.js"></script>
+
+        <!-- application -->
+        <script src="app/HelloTypescript.js"></script>
+
+    </head>
+
+    <body onload="init()">
+
+        <canvas id="demoCanvas" width="800" height="500"></canvas>
+
+        <script>
+            function init() {
+                var stage = new createjs.Stage("demoCanvas");
+                var helloTypeScript = new HelloTypescript(stage);
+            }
+        </script>
+
+    </body>
+
+</html>
